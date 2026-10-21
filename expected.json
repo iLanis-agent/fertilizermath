@@ -1,0 +1,897 @@
+{
+ "cases": [
+  {
+   "fn": "product",
+   "args": [
+    "1",
+    "5000",
+    "24"
+   ],
+   "expect": "At 1 lb of nitrogen per 1000 sq ft over 5000 sq ft with a 24% nitrogen product, the spread is 20.83 lb of product."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "20.83",
+    "50"
+   ],
+   "expect": "The spread of 20.83 lb takes 1 bag of 50 lb, leaving 29.17 lb of room."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "4",
+    "1"
+   ],
+   "expect": "The seasonal cap of 4 lb of nitrogen per 1000 sq ft at 1 lb an application holds 4 applications, using 4 lb of the cap."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "30",
+    "50",
+    "24"
+   ],
+   "expect": "At $30 for a 50 lb bag of the 24% nitrogen product, the nitrogen costs $2.50 per lb."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "3.17",
+    "821652",
+    "69"
+   ],
+   "expect": "At 3.17 lb of nitrogen per 1000 sq ft over 821652 sq ft with a 69% nitrogen product, the spread is 3774.84 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "8.38",
+    "352372",
+    "67"
+   ],
+   "expect": "At 8.38 lb of nitrogen per 1000 sq ft over 352372 sq ft with a 67% nitrogen product, the spread is 4407.28 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "1.04",
+    "871579",
+    "1"
+   ],
+   "expect": "At 1.04 lb of nitrogen per 1000 sq ft over 871579 sq ft with a 1% nitrogen product, the spread is 90644.22 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "3.68",
+    "333975",
+    "42"
+   ],
+   "expect": "At 3.68 lb of nitrogen per 1000 sq ft over 333975 sq ft with a 42% nitrogen product, the spread is 2926.26 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "2.71",
+    "308344",
+    "21"
+   ],
+   "expect": "At 2.71 lb of nitrogen per 1000 sq ft over 308344 sq ft with a 21% nitrogen product, the spread is 3979.11 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "3",
+    "290367",
+    "18"
+   ],
+   "expect": "At 3 lb of nitrogen per 1000 sq ft over 290367 sq ft with a 18% nitrogen product, the spread is 4839.45 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "1.41",
+    "335641",
+    "16"
+   ],
+   "expect": "At 1.41 lb of nitrogen per 1000 sq ft over 335641 sq ft with a 16% nitrogen product, the spread is 2957.84 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "5.68",
+    "332185",
+    "39"
+   ],
+   "expect": "At 5.68 lb of nitrogen per 1000 sq ft over 332185 sq ft with a 39% nitrogen product, the spread is 4837.98 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "6.8",
+    "791975",
+    "58"
+   ],
+   "expect": "At 6.8 lb of nitrogen per 1000 sq ft over 791975 sq ft with a 58% nitrogen product, the spread is 9285.22 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "4.12",
+    "528146",
+    "47"
+   ],
+   "expect": "At 4.12 lb of nitrogen per 1000 sq ft over 528146 sq ft with a 47% nitrogen product, the spread is 4629.71 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "9.82",
+    "203248",
+    "64"
+   ],
+   "expect": "At 9.82 lb of nitrogen per 1000 sq ft over 203248 sq ft with a 64% nitrogen product, the spread is 3118.59 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "4.56",
+    "102680",
+    "22"
+   ],
+   "expect": "At 4.56 lb of nitrogen per 1000 sq ft over 102680 sq ft with a 22% nitrogen product, the spread is 2128.28 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "1.48",
+    "116629",
+    "86"
+   ],
+   "expect": "At 1.48 lb of nitrogen per 1000 sq ft over 116629 sq ft with a 86% nitrogen product, the spread is 200.71 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "9.43",
+    "422090",
+    "64"
+   ],
+   "expect": "At 9.43 lb of nitrogen per 1000 sq ft over 422090 sq ft with a 64% nitrogen product, the spread is 6219.23 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "0.44",
+    "543856",
+    "33"
+   ],
+   "expect": "At 0.44 lb of nitrogen per 1000 sq ft over 543856 sq ft with a 33% nitrogen product, the spread is 725.14 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "8.85",
+    "448075",
+    "63"
+   ],
+   "expect": "At 8.85 lb of nitrogen per 1000 sq ft over 448075 sq ft with a 63% nitrogen product, the spread is 6294.39 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "2.01",
+    "396657",
+    "49"
+   ],
+   "expect": "At 2.01 lb of nitrogen per 1000 sq ft over 396657 sq ft with a 49% nitrogen product, the spread is 1627.1 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "6",
+    "213787",
+    "64"
+   ],
+   "expect": "At 6 lb of nitrogen per 1000 sq ft over 213787 sq ft with a 64% nitrogen product, the spread is 2004.25 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "1.68",
+    "439122",
+    "35"
+   ],
+   "expect": "At 1.68 lb of nitrogen per 1000 sq ft over 439122 sq ft with a 35% nitrogen product, the spread is 2107.79 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "8.32",
+    "520350",
+    "26"
+   ],
+   "expect": "At 8.32 lb of nitrogen per 1000 sq ft over 520350 sq ft with a 26% nitrogen product, the spread is 16651.2 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "1.67",
+    "728948",
+    "31"
+   ],
+   "expect": "At 1.67 lb of nitrogen per 1000 sq ft over 728948 sq ft with a 31% nitrogen product, the spread is 3926.91 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "3.46",
+    "96548",
+    "50"
+   ],
+   "expect": "At 3.46 lb of nitrogen per 1000 sq ft over 96548 sq ft with a 50% nitrogen product, the spread is 668.11 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "5.51",
+    "45055",
+    "39"
+   ],
+   "expect": "At 5.51 lb of nitrogen per 1000 sq ft over 45055 sq ft with a 39% nitrogen product, the spread is 636.55 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "1.4",
+    "656268",
+    "60"
+   ],
+   "expect": "At 1.4 lb of nitrogen per 1000 sq ft over 656268 sq ft with a 60% nitrogen product, the spread is 1531.29 lb of product."
+  },
+  {
+   "fn": "product",
+   "args": [
+    "4.74",
+    "591404",
+    "8"
+   ],
+   "expect": "At 4.74 lb of nitrogen per 1000 sq ft over 591404 sq ft with a 8% nitrogen product, the spread is 35040.69 lb of product."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "4148.98",
+    "137.56"
+   ],
+   "expect": "The spread of 4148.98 lb takes 31 bags of 137.56 lb, leaving 115.38 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "33841.31",
+    "139.41"
+   ],
+   "expect": "The spread of 33841.31 lb takes 243 bags of 139.41 lb, leaving 35.32 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "53938.06",
+    "52.68"
+   ],
+   "expect": "The spread of 53938.06 lb takes 1024 bags of 52.68 lb, leaving 6.26 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "93668.72",
+    "8.15"
+   ],
+   "expect": "The spread of 93668.72 lb takes 11494 bags of 8.15 lb, leaving 7.38 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "10854.42",
+    "17.08"
+   ],
+   "expect": "The spread of 10854.42 lb takes 636 bags of 17.08 lb, leaving 8.46 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "25263.69",
+    "180.15"
+   ],
+   "expect": "The spread of 25263.69 lb takes 141 bags of 180.15 lb, leaving 137.46 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "75406.5",
+    "65.7"
+   ],
+   "expect": "The spread of 75406.5 lb takes 1148 bags of 65.7 lb, leaving 17.1 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "92323.63",
+    "143.64"
+   ],
+   "expect": "The spread of 92323.63 lb takes 643 bags of 143.64 lb, leaving 36.89 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "8243.1",
+    "140.43"
+   ],
+   "expect": "The spread of 8243.1 lb takes 59 bags of 140.43 lb, leaving 42.27 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "57673.63",
+    "158.74"
+   ],
+   "expect": "The spread of 57673.63 lb takes 364 bags of 158.74 lb, leaving 107.73 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "98037.16",
+    "199.74"
+   ],
+   "expect": "The spread of 98037.16 lb takes 491 bags of 199.74 lb, leaving 35.18 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "42215.72",
+    "108.39"
+   ],
+   "expect": "The spread of 42215.72 lb takes 390 bags of 108.39 lb, leaving 56.38 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "222.88",
+    "34.61"
+   ],
+   "expect": "The spread of 222.88 lb takes 7 bags of 34.61 lb, leaving 19.39 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "25268.23",
+    "106.47"
+   ],
+   "expect": "The spread of 25268.23 lb takes 238 bags of 106.47 lb, leaving 71.63 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "15569.79",
+    "1.23"
+   ],
+   "expect": "The spread of 15569.79 lb takes 12659 bags of 1.23 lb, leaving 0.78 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "53962.49",
+    "109.15"
+   ],
+   "expect": "The spread of 53962.49 lb takes 495 bags of 109.15 lb, leaving 66.76 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "29356.53",
+    "101.99"
+   ],
+   "expect": "The spread of 29356.53 lb takes 288 bags of 101.99 lb, leaving 16.59 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "67295.89",
+    "78.83"
+   ],
+   "expect": "The spread of 67295.89 lb takes 854 bags of 78.83 lb, leaving 24.93 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "16476.22",
+    "153.43"
+   ],
+   "expect": "The spread of 16476.22 lb takes 108 bags of 153.43 lb, leaving 94.22 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "20587.87",
+    "92.43"
+   ],
+   "expect": "The spread of 20587.87 lb takes 223 bags of 92.43 lb, leaving 24.02 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "84510.39",
+    "165.72"
+   ],
+   "expect": "The spread of 84510.39 lb takes 510 bags of 165.72 lb, leaving 6.81 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "1887.05",
+    "19.39"
+   ],
+   "expect": "The spread of 1887.05 lb takes 98 bags of 19.39 lb, leaving 13.17 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "2813.06",
+    "157.39"
+   ],
+   "expect": "The spread of 2813.06 lb takes 18 bags of 157.39 lb, leaving 19.96 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "20602.72",
+    "33.68"
+   ],
+   "expect": "The spread of 20602.72 lb takes 612 bags of 33.68 lb, leaving 9.44 lb of room."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "60460.09",
+    "144.06"
+   ],
+   "expect": "The spread of 60460.09 lb takes 420 bags of 144.06 lb, leaving 45.11 lb of room."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "15.34",
+    "7.25"
+   ],
+   "expect": "The seasonal cap of 15.34 lb of nitrogen per 1000 sq ft at 7.25 lb an application holds 2 applications, using 14.5 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "16.63",
+    "2.12"
+   ],
+   "expect": "The seasonal cap of 16.63 lb of nitrogen per 1000 sq ft at 2.12 lb an application holds 7 applications, using 14.84 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "8.1",
+    "1.83"
+   ],
+   "expect": "The seasonal cap of 8.1 lb of nitrogen per 1000 sq ft at 1.83 lb an application holds 4 applications, using 7.32 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "15.39",
+    "8.13"
+   ],
+   "expect": "The seasonal cap of 15.39 lb of nitrogen per 1000 sq ft at 8.13 lb an application holds 1 application, using 8.13 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "12.42",
+    "9.33"
+   ],
+   "expect": "The seasonal cap of 12.42 lb of nitrogen per 1000 sq ft at 9.33 lb an application holds 1 application, using 9.33 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "10.54",
+    "6.74"
+   ],
+   "expect": "The seasonal cap of 10.54 lb of nitrogen per 1000 sq ft at 6.74 lb an application holds 1 application, using 6.74 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "8.29",
+    "7.54"
+   ],
+   "expect": "The seasonal cap of 8.29 lb of nitrogen per 1000 sq ft at 7.54 lb an application holds 1 application, using 7.54 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "19.2",
+    "9.17"
+   ],
+   "expect": "The seasonal cap of 19.2 lb of nitrogen per 1000 sq ft at 9.17 lb an application holds 2 applications, using 18.34 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "12.34",
+    "4.66"
+   ],
+   "expect": "The seasonal cap of 12.34 lb of nitrogen per 1000 sq ft at 4.66 lb an application holds 2 applications, using 9.32 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "9.3",
+    "9.02"
+   ],
+   "expect": "The seasonal cap of 9.3 lb of nitrogen per 1000 sq ft at 9.02 lb an application holds 1 application, using 9.02 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "18.49",
+    "6.07"
+   ],
+   "expect": "The seasonal cap of 18.49 lb of nitrogen per 1000 sq ft at 6.07 lb an application holds 3 applications, using 18.21 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "10.92",
+    "9.11"
+   ],
+   "expect": "The seasonal cap of 10.92 lb of nitrogen per 1000 sq ft at 9.11 lb an application holds 1 application, using 9.11 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "14",
+    "4.57"
+   ],
+   "expect": "The seasonal cap of 14 lb of nitrogen per 1000 sq ft at 4.57 lb an application holds 3 applications, using 13.71 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "10.32",
+    "8.73"
+   ],
+   "expect": "The seasonal cap of 10.32 lb of nitrogen per 1000 sq ft at 8.73 lb an application holds 1 application, using 8.73 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "13.03",
+    "7.19"
+   ],
+   "expect": "The seasonal cap of 13.03 lb of nitrogen per 1000 sq ft at 7.19 lb an application holds 1 application, using 7.19 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "13.79",
+    "6.59"
+   ],
+   "expect": "The seasonal cap of 13.79 lb of nitrogen per 1000 sq ft at 6.59 lb an application holds 2 applications, using 13.18 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "16.36",
+    "7.9"
+   ],
+   "expect": "The seasonal cap of 16.36 lb of nitrogen per 1000 sq ft at 7.9 lb an application holds 2 applications, using 15.8 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "10.11",
+    "9.93"
+   ],
+   "expect": "The seasonal cap of 10.11 lb of nitrogen per 1000 sq ft at 9.93 lb an application holds 1 application, using 9.93 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "10.95",
+    "2.32"
+   ],
+   "expect": "The seasonal cap of 10.95 lb of nitrogen per 1000 sq ft at 2.32 lb an application holds 4 applications, using 9.28 lb of the cap."
+  },
+  {
+   "fn": "season",
+   "args": [
+    "4.48",
+    "1.58"
+   ],
+   "expect": "The seasonal cap of 4.48 lb of nitrogen per 1000 sq ft at 1.58 lb an application holds 2 applications, using 3.16 lb of the cap."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "748.35",
+    "188.49",
+    "32"
+   ],
+   "expect": "At $748.35 for a 188.49 lb bag of the 32% nitrogen product, the nitrogen costs $12.41 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "704.57",
+    "175.84",
+    "23"
+   ],
+   "expect": "At $704.57 for a 175.84 lb bag of the 23% nitrogen product, the nitrogen costs $17.42 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "92.15",
+    "140.53",
+    "17"
+   ],
+   "expect": "At $92.15 for a 140.53 lb bag of the 17% nitrogen product, the nitrogen costs $3.86 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "618.65",
+    "122.47",
+    "85"
+   ],
+   "expect": "At $618.65 for a 122.47 lb bag of the 85% nitrogen product, the nitrogen costs $5.94 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "497.41",
+    "173.02",
+    "67"
+   ],
+   "expect": "At $497.41 for a 173.02 lb bag of the 67% nitrogen product, the nitrogen costs $4.29 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "102.09",
+    "57.04",
+    "5"
+   ],
+   "expect": "At $102.09 for a 57.04 lb bag of the 5% nitrogen product, the nitrogen costs $35.80 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "785.38",
+    "14.09",
+    "42"
+   ],
+   "expect": "At $785.38 for a 14.09 lb bag of the 42% nitrogen product, the nitrogen costs $132.71 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "147.59",
+    "115.64",
+    "46"
+   ],
+   "expect": "At $147.59 for a 115.64 lb bag of the 46% nitrogen product, the nitrogen costs $2.77 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "233.29",
+    "24.9",
+    "58"
+   ],
+   "expect": "At $233.29 for a 24.9 lb bag of the 58% nitrogen product, the nitrogen costs $16.15 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "561.92",
+    "128.01",
+    "30"
+   ],
+   "expect": "At $561.92 for a 128.01 lb bag of the 30% nitrogen product, the nitrogen costs $14.63 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "452.8",
+    "22.38",
+    "93"
+   ],
+   "expect": "At $452.8 for a 22.38 lb bag of the 93% nitrogen product, the nitrogen costs $21.76 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "642.53",
+    "135.86",
+    "18"
+   ],
+   "expect": "At $642.53 for a 135.86 lb bag of the 18% nitrogen product, the nitrogen costs $26.27 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "453.61",
+    "193.12",
+    "30"
+   ],
+   "expect": "At $453.61 for a 193.12 lb bag of the 30% nitrogen product, the nitrogen costs $7.83 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "978.95",
+    "59.66",
+    "36"
+   ],
+   "expect": "At $978.95 for a 59.66 lb bag of the 36% nitrogen product, the nitrogen costs $45.58 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "228.71",
+    "69.17",
+    "29"
+   ],
+   "expect": "At $228.71 for a 69.17 lb bag of the 29% nitrogen product, the nitrogen costs $11.40 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "993.49",
+    "155.03",
+    "15"
+   ],
+   "expect": "At $993.49 for a 155.03 lb bag of the 15% nitrogen product, the nitrogen costs $42.72 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "672.24",
+    "112.12",
+    "66"
+   ],
+   "expect": "At $672.24 for a 112.12 lb bag of the 66% nitrogen product, the nitrogen costs $9.08 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "995.31",
+    "35.82",
+    "45"
+   ],
+   "expect": "At $995.31 for a 35.82 lb bag of the 45% nitrogen product, the nitrogen costs $61.75 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "775.53",
+    "49.84",
+    "69"
+   ],
+   "expect": "At $775.53 for a 49.84 lb bag of the 69% nitrogen product, the nitrogen costs $22.55 per lb."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "746.49",
+    "197.73",
+    "37"
+   ],
+   "expect": "At $746.49 for a 197.73 lb bag of the 37% nitrogen product, the nitrogen costs $10.20 per lb."
+  }
+ ],
+ "errors": [
+  [
+   "product",
+   [
+    "0",
+    "5000",
+    "24"
+   ]
+  ],
+  [
+   "product",
+   [
+    "10.01",
+    "5000",
+    "24"
+   ]
+  ],
+  [
+   "product",
+   [
+    "1",
+    "0",
+    "24"
+   ]
+  ],
+  [
+   "product",
+   [
+    "1",
+    "5000",
+    "0"
+   ]
+  ],
+  [
+   "product",
+   [
+    "1",
+    "5000",
+    "24.5"
+   ]
+  ],
+  [
+   "bags",
+   [
+    "0",
+    "50"
+   ]
+  ],
+  [
+   "bags",
+   [
+    "20.83",
+    "0"
+   ]
+  ],
+  [
+   "season",
+   [
+    "0",
+    "1"
+   ]
+  ],
+  [
+   "season",
+   [
+    "0.5",
+    "1"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "50",
+    "24"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "1000.01",
+    "50",
+    "24"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "30",
+    "0",
+    "24"
+   ]
+  ]
+ ]
+}
